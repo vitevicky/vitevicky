@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Super Pest Control Services | Residential &amp; Commercial Pest Management</title>
+<meta name="description" content="Super Pest Control Services — professional, ISO certified pest management for homes and businesses. 25+ years of safe, effective termite, rodent, mosquito and bed bug treatment.">
+<meta name="theme-color" content="#4A5A34">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Skip link for accessibility ===== -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner">
+    <a href="#home" class="navbar__logo" aria-label="Super Pest Control — go to home">
+      <img src="logo.png" alt="Super Pest Control Logo" width="180" height="60">
+    </a>
+
+    <button class="navbar__hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navbar__links" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#pest-library" class="nav-link">Pest Library</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="navbar__actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Search" aria-expanded="false" aria-controls="searchBar">
+        <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      </button>
+      <a href="#contact" class="btn btn--primary btn--sm navbar__cta">Get Free Inspection</a>
+    </div>
+  </div>
+
+  <div class="search-bar" id="searchBar">
+    <div class="search-bar__inner">
+      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      <input type="search" placeholder="Search pests, services..." aria-label="Search pests or services">
+      <button class="icon-btn" id="searchClose" aria-label="Close search"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MOBILE MENU (slide-in) ===== -->
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<aside class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" aria-hidden="true">
+  <div class="mobile-menu__top">
+    <img src="logo.png" alt="Super Pest Control Logo" width="150" height="50">
+    <button class="icon-btn" id="mobileCloseBtn" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <nav aria-label="Mobile primary navigation">
+    <ul>
+      <li><a href="#home" class="mobile-link">Home</a></li>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#services" class="mobile-link">Services</a></li>
+      <li><a href="#pest-library" class="mobile-link">Pest Library</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </nav>
+  <a href="#contact" class="btn btn--primary mobile-menu__cta">Get Free Inspection</a>
+</aside>
+
+<main id="main-content">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero__bg" id="heroBg" style="background-image:url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1920&auto=format&fit=crop');"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content reveal" data-reveal="fade-up">
+      <span class="eyebrow">Trusted pest management</span>
+      <h1>SUPER PEST CONTROL SERVICES</h1>
+      <p class="hero__subheading">Protecting homes &amp; businesses for 25+ years.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary btn--lg ripple">Get Free Inspection</a>
+        <a href="tel:+9198280-66990" class="btn btn--outline btn--lg ripple"><i class="fa-solid fa-phone" aria-hidden="true"></i> Call now</a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll-cue" aria-label="Scroll to About section">
+      <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container about__grid">
+      <div class="about__media reveal" data-reveal="fade-right">
+        <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=900&auto=format&fit=crop" alt="Pest control technician inspecting a home for pests" loading="lazy" width="560" height="640">
+        <div class="about__badge">
+          <span class="about__badge-number">25+</span>
+          <span class="about__badge-label">Years of trusted service</span>
+        </div>
+      </div>
+      <div class="about__copy reveal" data-reveal="fade-left">
+        <span class="section-eyebrow">About us</span>
+        <h2>Know your enemy: identification &amp; treatment</h2>
+        <p>Effective pest management starts with understanding what you're up against. Our licensed technicians identify the exact species affecting your property, then design a targeted treatment plan rather than a one-size-fits-all spray. From subtle termite signs to rodent entry points, we combine field experience with modern, low-toxicity methods to remove infestations at the source — and keep them from coming back.</p>
+        <p>Every visit follows a documented process: inspection, identification, treatment, and follow-up — so you always know exactly what's happening on your property and why.</p>
+        <ul class="about__points">
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Certified &amp; background-checked technicians</li>
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Family and pet-safe treatment options</li>
+          <li><i class="fa-solid fa-circle-check" aria-hidden="true"></i> Transparent pricing, no hidden fees</li>
+        </ul>
+        <a href="#services" class="btn btn--dark">Explore our services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PEST LIBRARY ===== -->
+  <section class="pest-library" id="pest-library">
+    <div class="container">
+      <header class="section-head reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">Pest library</span>
+        <h2>Know what you're dealing with</h2>
+        <p>Browse common household and commercial pests — how to identify them, and how we treat them.</p>
+      </header>
+
+      <div class="pest-grid">
+
+        <article class="pest-card reveal" data-reveal="fade-up">
+          <div class="pest-card__img">
+            <img src="https://images.unsplash.com/photo-1591825381310-4a9c8e46c5f9?q=80&w=700&auto=format&fit=crop" alt="Close-up of termites on damaged wood" loading="lazy" width="400" height="280">
+          </div>
+          <div class="pest-card__body">
+            <h3>Termites</h3>
+            <p class="pest-card__desc">Silent structural destroyers that feed on wood, often undetected until damage is severe.</p>
+            <dl class="pest-card__facts">
+              <div><dt>Identification</dt><dd>Mud tubes, hollow-sounding wood, discarded wings</dd></div>
+              <div><dt>Treatment</dt><dd>Liquid soil barrier &amp; bait station systems</dd></div>
+            </dl>
+            <button class="btn btn--link" data-modal-target="modal-termites">Read more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </article>
+
+        <article class="pest-card reveal" data-reveal="fade-up">
+          <div class="pest-card__img">
+            <img src="https://images.unsplash.com/photo-1635942967177-8fd7d3d1d4e6?q=80&w=700&auto=format&fit=crop" alt="Cockroach on a kitchen surface" loading="lazy" width="400" height="280">
+          </div>
+          <div class="pest-card__body">
+            <h3>Cockroaches</h3>
+            <p class="pest-card__desc">Resilient pests that spread bacteria and trigger allergies in kitchens and bathrooms.</p>
+            <dl class="pest-card__facts">
+              <div><dt>Identification</dt><dd>Droppings, musty odor, nighttime sightings</dd></div>
+              <div><dt>Treatment</dt><dd>Gel baiting &amp; crack-and-crevice treatment</dd></div>
+            </dl>
+            <button class="btn btn--link" data-modal-target="modal-cockroaches">Read more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </article>
+
+        <article class="pest-card reveal" data-reveal="fade-up">
+          <div class="pest-card__img">
+            <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?q=80&w=700&auto=format&fit=crop" alt="Rodent near a home entry point" loading="lazy" width="400" height="280">
+          </div>
+          <div class="pest-card__body">
+            <h3>Rodents</h3>
+            <p class="pest-card__desc">Mice and rats chew wiring and insulation while contaminating food storage areas.</p>
+            <dl class="pest-card__facts">
+              <div><dt>Identification</dt><dd>Droppings, gnaw marks, scratching sounds</dd></div>
+              <div><dt>Treatment</dt><dd>Exclusion sealing, trapping &amp; bait stations</dd></div>
+            </dl>
+            <button class="btn btn--link" data-modal-target="modal-rodents">Read more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </article>
+
+        <article class="pest-card reveal" data-reveal="fade-up">
+          <div class="pest-card__img">
+            <img src="https://images.unsplash.com/photo-1580169980114-ccd0babfa840?q=80&w=700&auto=format&fit=crop" alt="Mosquito resting on skin" loading="lazy" width="400" height="280">
+          </div>
+          <div class="pest-card__body">
+            <h3>Mosquitoes</h3>
+            <p class="pest-card__desc">Disease-carrying insects that breed rapidly in standing water around the property.</p>
+            <dl class="pest-card__facts">
+              <div><dt>Identification</dt><dd>Buzzing at dusk, standing water nearby</dd></div>
+              <div><dt>Treatment</dt><dd>Larvicide, fogging &amp; source reduction</dd></div>
+            </dl>
+            <button class="btn btn--link" data-modal-target="modal-mosquitoes">Read more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </article>
+
+        <article class="pest-card reveal" data-reveal="fade-up">
+          <div class="pest-card__img">
+            <img src="https://images.unsplash.com/photo-1620573302533-cee099b7a71d?q=80&w=700&auto=format&fit=crop" alt="Close-up macro of a bed bug" loading="lazy" width="400" height="280">
+          </div>
+          <div class="pest-card__body">
+            <h3>Bed bugs</h3>
+            <p class="pest-card__desc">Elusive nighttime biters that hide in seams and travel easily between rooms.</p>
+            <dl class="pest-card__facts">
+              <div><dt>Identification</dt><dd>Rust-colored spots, itchy bite clusters</dd></div>
+              <div><dt>Treatment</dt><dd>Heat treatment &amp; targeted residual spray</dd></div>
+            </dl>
+            <button class="btn btn--link" data-modal-target="modal-bedbugs">Read more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </article>
+
+        <article class="pest-card reveal" data-reveal="fade-up">
+          <div class="pest-card__img">
+            <img src="https://images.unsplash.com/photo-1444109296815-3a2c9c6e8d75?q=80&w=700&auto=format&fit=crop" alt="Trail of ants on an outdoor surface" loading="lazy" width="400" height="280">
+          </div>
+          <div class="pest-card__body">
+            <h3>Ants</h3>
+            <p class="pest-card__desc">Colony-based invaders that contaminate food and can damage structures over time.</p>
+            <dl class="pest-card__facts">
+              <div><dt>Identification</dt><dd>Visible trails, small dirt mounds outdoors</dd></div>
+              <div><dt>Treatment</dt><dd>Colony baiting &amp; perimeter barrier spray</dd></div>
+            </dl>
+            <button class="btn btn--link" data-modal-target="modal-ants">Read more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <header class="section-head reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">What we do</span>
+        <h2>Pest control services built around you</h2>
+        <p>From single-family homes to large industrial facilities, we tailor every treatment plan to the space.</p>
+      </header>
+
+      <div class="services-grid">
+        <div class="service-card reveal" data-reveal="zoom">
+          <div class="service-card__icon"><i class="fa-solid fa-house" aria-hidden="true"></i></div>
+          <h3>Residential pest control</h3>
+          <p>Whole-home protection plans that keep common household pests out year-round.</p>
+          <a href="#contact" class="btn btn--link">Learn more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="service-card reveal" data-reveal="zoom">
+          <div class="service-card__icon"><i class="fa-solid fa-building" aria-hidden="true"></i></div>
+          <h3>Commercial pest control</h3>
+          <p>Discreet, compliant treatment schedules for offices, retail and hospitality.</p>
+          <a href="#contact" class="btn btn--link">Learn more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="service-card reveal" data-reveal="zoom">
+          <div class="service-card__icon"><i class="fa-solid fa-industry" aria-hidden="true"></i></div>
+          <h3>Industrial pest control</h3>
+          <p>Large-scale facility programs that meet strict food-safety and audit standards.</p>
+          <a href="#contact" class="btn btn--link">Learn more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="service-card reveal" data-reveal="zoom">
+          <div class="service-card__icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+          <h3>Anti-termite treatment</h3>
+          <p>Pre- and post-construction soil treatment plus ongoing monitoring stations.</p>
+          <a href="#contact" class="btn btn--link">Learn more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="service-card reveal" data-reveal="zoom">
+          <div class="service-card__icon"><i class="fa-solid fa-paw" aria-hidden="true"></i></div>
+          <h3>Rodent control</h3>
+          <p>Entry-point sealing and humane trapping to remove and keep rodents out.</p>
+          <a href="#contact" class="btn btn--link">Learn more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="service-card reveal" data-reveal="zoom">
+          <div class="service-card__icon"><i class="fa-solid fa-mosquito" aria-hidden="true"></i></div>
+          <h3>Mosquito control</h3>
+          <p>Source reduction and seasonal fogging to reclaim your outdoor spaces.</p>
+          <a href="#contact" class="btn btn--link">Learn more <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us">
+    <div class="container">
+      <header class="section-head section-head--light reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">Why choose us</span>
+        <h2>Trusted by homeowners &amp; businesses alike</h2>
+      </header>
+
+      <div class="why-grid">
+        <div class="why-box reveal" data-reveal="fade-up">
+          <i class="fa-solid fa-award" aria-hidden="true"></i>
+          <h3>25+ years experience</h3>
+        </div>
+        <div class="why-box reveal" data-reveal="fade-up">
+          <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+          <h3>ISO certified</h3>
+        </div>
+        <div class="why-box reveal" data-reveal="fade-up">
+          <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+          <h3>Safe chemicals</h3>
+        </div>
+        <div class="why-box reveal" data-reveal="fade-up">
+          <i class="fa-solid fa-user-shield" aria-hidden="true"></i>
+          <h3>Trained professionals</h3>
+        </div>
+        <div class="why-box reveal" data-reveal="fade-up">
+          <i class="fa-solid fa-tag" aria-hidden="true"></i>
+          <h3>Affordable pricing</h3>
+        </div>
+        <div class="why-box reveal" data-reveal="fade-up">
+          <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+          <h3>Fast service</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="process">
+    <div class="container">
+      <header class="section-head reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">Our process</span>
+        <h2>A clear plan, every visit</h2>
+      </header>
+
+      <ol class="timeline">
+        <li class="timeline__step reveal" data-reveal="fade-up">
+          <div class="timeline__icon"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></div>
+          <span class="timeline__num">01</span>
+          <h3>Inspection</h3>
+          <p>A thorough walkthrough to locate activity, entry points and risk areas.</p>
+        </li>
+        <li class="timeline__step reveal" data-reveal="fade-up">
+          <div class="timeline__icon"><i class="fa-solid fa-magnifying-glass-plus" aria-hidden="true"></i></div>
+          <span class="timeline__num">02</span>
+          <h3>Identification</h3>
+          <p>We confirm the exact species and severity before recommending treatment.</p>
+        </li>
+        <li class="timeline__step reveal" data-reveal="fade-up">
+          <div class="timeline__icon"><i class="fa-solid fa-spray-can-sparkles" aria-hidden="true"></i></div>
+          <span class="timeline__num">03</span>
+          <h3>Treatment</h3>
+          <p>A targeted plan is applied using the safest effective method available.</p>
+        </li>
+        <li class="timeline__step reveal" data-reveal="fade-up">
+          <div class="timeline__icon"><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i></div>
+          <span class="timeline__num">04</span>
+          <h3>Follow-up</h3>
+          <p>We return to confirm results and adjust the plan if needed.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials">
+    <div class="container">
+      <header class="section-head section-head--light reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">Testimonials</span>
+        <h2>What our customers say</h2>
+      </header>
+
+      <div class="testimonial-slider reveal" data-reveal="fade-up">
+        <div class="testimonial-track" id="testimonialTrack">
+          <figure class="testimonial-slide">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote>I am very happy with the pest control service. The team arrived on time, explained everything clearly, and completed the treatment professionally. Within a few days, I noticed a huge difference. I highly recommend their service to anyone dealing with pest problems.</blockquote>
+            <figcaption>— Rina M., homeowner</figcaption>
+          </figure>
+          <figure class="testimonial-slide">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote>The technicians were friendly, knowledgeable, and very professional. They inspected every corner of my home and provided an effective solution. The results were amazing, and the pricing was reasonable. Great experience overall.</blockquote>
+            <figcaption>— Nikil K., restaurant owner</figcaption>
+          </figure>
+          <figure class="testimonial-slide">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote>Service kaafi impressive thi. Booking se lekar treatment complete hone tak sab kuch smooth tha. Staff bahut polite aur helpful tha. Price bhi reasonable tha aur result expected se bhi better mila. Agar kisi ko pest control ki zarurat ho, to main definitely recommend karunga.</blockquote>
+            <figcaption>— Priya S., homeowner</figcaption>
+          </figure>
+          <figure class="testimonial-slide">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote>Maine pehli baar inki service li thi, aur honestly experience bahut accha raha. Team time par aayi, sab kuch properly explain kiya aur treatment bhi bahut professionally kiya. Ab ghar mein pests bilkul nahi dikhte. Highly recommended</blockquote>
+            <figcaption>Mujahid K.,Hospitalowner</figcaption>
+          </figure>
+          <figure class="testimonial-slide">
+            <div class="testimonial-stars" aria-hidden="true">★★★★★</div>
+            <blockquote>I had a serious cockroach problem, and this company solved it quickly. The booking process was simple, the staff was polite, and the treatment was very effective. My home is now pest-free, and I couldn't be happier with the service. I would definitely use them again.</blockquote>
+            <figcaption>Ajay P.,Bank Manager</figcaption>
+          </figure>
+        </div>
+        <div class="testimonial-controls">
+          <button class="icon-btn" id="testimonialPrev" aria-label="Previous testimonial"><i class="fa-solid fa-arrow-left"></i></button>
+          <div class="testimonial-dots" id="testimonialDots"></div>
+          <button class="icon-btn" id="testimonialNext" aria-label="Next testimonial"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container container--narrow">
+      <header class="section-head reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">FAQ</span>
+        <h2>Common questions</h2>
+      </header>
+
+      <div class="accordion" id="accordion">
+        <div class="accordion-item reveal" data-reveal="fade-up">
+          <button class="accordion-trigger" aria-expanded="false">
+            How long does treatment last?
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel">
+            <p>Most treatments provide protection for 3–6 months, depending on the pest and property. Termite barrier treatments can last several years, and we'll always confirm the expected coverage window during your inspection.</p>
+          </div>
+        </div>
+        <div class="accordion-item reveal" data-reveal="fade-up">
+          <button class="accordion-trigger" aria-expanded="false">
+            Is it safe for kids and pets?
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel">
+            <p>Yes. We use EPA-registered, low-toxicity products and apply them in a way that minimizes contact with living spaces. We'll also let you know if any short waiting period is recommended before re-entering treated areas.</p>
+          </div>
+        </div>
+        <div class="accordion-item reveal" data-reveal="fade-up">
+          <button class="accordion-trigger" aria-expanded="false">
+            How many visits are required?
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel">
+            <p>It depends on the severity of the infestation. Light issues are often resolved in one or two visits, while larger infestations or ongoing prevention plans may involve quarterly visits. We'll outline this clearly after inspection.</p>
+          </div>
+        </div>
+        <div class="accordion-item reveal" data-reveal="fade-up">
+          <button class="accordion-trigger" aria-expanded="false">
+            Do I need to leave my home during treatment?
+            <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="accordion-panel">
+            <p>Usually not — most residential treatments don't require you to leave. For certain fumigation or heat treatments, our technician will let you know in advance and give clear re-entry timing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <header class="section-head reveal" data-reveal="fade-up">
+        <span class="section-eyebrow">Contact us</span>
+        <h2>Get your free inspection</h2>
+        <p>Reach out today — most inspections can be scheduled within 48 hours.</p>
+      </header>
+
+      <div class="contact-card reveal" data-reveal="fade-up">
+        <div class="contact-card__info">
+          <div class="contact-info-item">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <div>
+              <h3>Phone</h3>
+              <a href="tel:+9198280-66990">+91 98280-66990</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <div>
+              <h3>Email</h3>
+              <a href="mailto:superpestcontrolservices.jaipur@gmail.com">superpestcontrolservices.jaipur@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <div>
+              <h3>Office address</h3>
+              <p>Address - 82/270, Sec-8, Pratap Nagar, Sanganer, Jaipur - 302033</p>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa-solid fa-clock" aria-hidden="true"></i>
+            <div>
+              <h3>Working hours</h3>
+              <p>Mon–Sat: 8:00 AM – 7:00 PM<br>Sun: Emergency calls only</p>
+            </div>
+          </div>
+          <a href="https://wa.me/+9179765-72984" target="_blank" rel="noopener" class="btn btn--whatsapp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> Chat on WhatsApp
+          </a>
+        </div>
+
+        <div class="contact-card__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.250201198965!2d75.80877027543569!3d26.80319797671263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dc988135575b1%3A0x6b7adc3d31ed289!2sSuper%20Pest%20Control%20Services!5e1!3m2!1sen!2sin!4v1785174761223!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>  
+</main>
+
+<!-- ===== FLOATING BUTTONS ===== -->
+<div class="floating-buttons">
+  <a href="https://wa.me/+9179765-72984" target="_blank" rel="noopener" class="fab fab--whatsapp" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+  </a>
+  <a href="tel:+919828066990" class="fab fab--call" aria-label="Call us">
+    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+  </a>
+  <button class="fab fab--top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </button>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <img src="logo.png" alt="Super Pest Control Logo" width="160" height="54" style="filter:brightness(0) invert(1);">
+      <p>Protecting homes and businesses with safe, effective pest management for over 25 years.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h3>Quick links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pest-library">Pest library</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h3>Services</h3>
+      <ul>
+        <li><a href="#services">Residential pest control</a></li>
+        <li><a href="#services">Commercial pest control</a></li>
+        <li><a href="#services">Anti-termite treatment</a></li>
+        <li><a href="#services">Rodent control</a></li>
+        <li><a href="#services">Mosquito control</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h3>Get in touch</h3>
+      <ul>
+        <li><i class="fa-solid fa-phone" aria-hidden="true"></i> +91 1413586075</li>
+        <li><i class="fa-solid fa-envelope" aria-hidden="true"></i>superpestcontrolservices.jaipur@gmail.com</li>
+        <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Rajasthan, Jaipur</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> Super Pest Control Services. All rights reserved.</p>
+    <p class="footer__iso"><i class="fa-solid fa-certificate" aria-hidden="true"></i> ISO 9001:2015 Certified</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
